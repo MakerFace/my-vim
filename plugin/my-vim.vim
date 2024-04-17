@@ -27,3 +27,18 @@ endfunction
 
 command InNERDTree call InNERDTree()
 command Vimrc call EditVimrc()
+
+call mynerdtree#Map()
+
+call mywinope#Map()
+
+call mybuffer#Map()
+
+call mytabs#Map()
+
+call mycoc#Map()
+
+call myfzf#Map()
+
+call myshell#Map()
+
