@@ -21,3 +21,5 @@ call myshell#Map()
 command InNERDTree call mytools#InNERDTree()
 command Vimrc call mytools#EditVimrc()
 
+call myshortcuts#Map()
+
