@@ -19,7 +19,8 @@ function! InNERDTree()
 endfunction
 
 function! mytools#InNERDTree()
-    return InNERDTree
+    let res = InNERDTree()
+    return res
 endfunction
 
 function! mytools#EditVimrc()

@@ -1,10 +1,6 @@
 " myfzf
-function! InNERDTree()
-    return get(my-vim#mytools#InNERDTree)
-endfunction
-
 function! OpenFzf()
-    if InNERDTree()
+    if mytools#InNERDTree()
         wincmd p
     endif
     execute 'FZF'
